@@ -1,0 +1,17 @@
+// Import all of Bootstrap's CSS
+
+$primary: #150544;
+$secondary: #614EF5;
+$light: #5A6772;
+$info: #E7F6FF;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "info": $info,
+);
+
+$font-family-sans-serif : 'Poppins';
+
+@import "~bootstrap/scss/bootstrap";
